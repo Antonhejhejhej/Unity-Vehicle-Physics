@@ -18,6 +18,8 @@ public class VehiclePhysicsDefault : MonoBehaviour
     [SerializeField] private float turningRadius;
     [SerializeField] private AnimationCurve steeringStability;
     [SerializeField] private float steeringSmoothing;
+    
+    
 
     [Header("Suspension")] [SerializeField]
     private float springStrength;
@@ -26,7 +28,7 @@ public class VehiclePhysicsDefault : MonoBehaviour
     [SerializeField] private float tireRadius;
     [SerializeField] private float rideHeight;
 
-    [Header("Physics")] [Header("Tire Grip")]
+     [Header("Tire Grip")]
     
     [SerializeField] private AnimationCurve gripBySpeed;
     
